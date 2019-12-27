@@ -1,5 +1,7 @@
 # iTunes Media Search APP
 
+### Link to the live version: https://itunes-search-hazelbag.herokuapp.com/
+
 ### Download the app to your local drive and run the following command to install the needed dependancies:
 
 ### First open the iTunesApp folder in your terminal and run
