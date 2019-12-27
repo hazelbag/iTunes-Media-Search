@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Rock+Salt&display=swap");
+
+html,
+body {
+  background-color: #343a40;
+}
+
+.App-header {
+  color: white;
+  text-align: center;
+  background-color: #343a40;
+}
+
+/*Nav-bar styling(on every component)*/
+.nav-img {
+  /* align-items: center; */
+  width: 100px;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-left: 11px;
+  margin-bottom: 20px;
+}
+.icons {
+  width: 550px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+}
+
+/*Home page styling*/
+.welcome-text {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-family: "Rock Salt", cursive;
+}
+.instruct-text {
+  color: rgb(92, 105, 221);
+  background-color: #343a40;
+  text-align: center;
+  font-family: "Rock Salt", cursive;
+}
+
+/*Drop-down on homepage styling*/
+.drop-background {
+  height: 1900px;
+}
+.dropdown-button {
+  margin-left: 45%;
+  position: fixed;
+}

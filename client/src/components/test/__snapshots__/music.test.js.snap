@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link renders correctly 1`] = `
+<div
+  className="albums-search"
+  style={
+    Object {
+      "background": "#343a40",
+      "display": "inline-block",
+      "height": "auto",
+      "width": "100%",
+    }
+  }
+>
+  <form
+    id="searchbox"
+    style={
+      Object {
+        "margin": "20px auto",
+        "width": "260px",
+      }
+    }
+  >
+    <label
+      style={
+        Object {
+          "position": "relative",
+        }
+      }
+    >
+      <i
+        aria-hidden="true"
+        className="fa fa-search fa-3"
+        onClick={[Function]}
+        style={
+          Object {
+            "fontSize": "1.4em",
+            "height": "40px",
+            "left": "12px",
+            "lineHeight": "40px",
+            "position": "absolute",
+          }
+        }
+      />
+      <input
+        onKeyPress={[Function]}
+        search="search"
+        style={
+          Object {
+            "border": "none",
+            "borderBottom": "1px solid #ccc",
+            "fontSize": "20px",
+            "height": "40px",
+            "paddingLeft": "45px",
+            "width": "100%",
+          }
+        }
+        type="text"
+      />
+    </label>
+  </form>
+  <card
+    className="albums-container"
+    style={
+      Object {
+        "alignItems": "center",
+        "background": "#343a40",
+        "display": "inline-block",
+        "paddingLeft": "12em",
+      }
+    }
+  />
+</div>
+`;
